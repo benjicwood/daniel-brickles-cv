@@ -21,7 +21,7 @@ body {
 }
 
 section {
-    padding: 80px 0;
+    padding-top: 80px;
 }
 
 h1, h2, h3 { font-weight: 300; text-transform: uppercase; text-align: center; }
@@ -31,10 +31,22 @@ h2:after { display: block; height: 2px; background-color: lightgrey; content: " 
 h3 { font-size: 110%; margin-bottom: 15px; }
 
 /* ----- PARAGRAPHS ----- */
-.paragraph {
+p {
     line-height: 145%;
     width: 70%;
     margin-left: 15%;
+}
+
+.li-qualifications {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 20%;
+    font-size: 90%;
+    padding-bottom: 5px;
+}
+
+.p-smaller-font {
+    font-size: 95%;
 }
 
 /* ----- LINKS ----- */
